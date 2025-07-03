@@ -10,13 +10,25 @@
       background-image: url(./HeroSection_img-20250630T040146Z-1-001/HeroSection_img/backgroundimage.png);
       background-repeat: no-repeat;
       background-size: cover;
+    }
 
+    nav {
+      overflow: hidden;
+      float: left;
+      display: block;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      background-color: aliceblue;
     }
   </style>
 
 </head>
 
-<body>
+<body class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
   <!-- navbar -->
   <nav class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -48,12 +60,13 @@
             <a href="/home/uki/jan/css fainal /Blog.html" class="block py-2 px-3 rounded-sm md:p-0">Blog</a>
           </li>
           <li>
-            <a href="/home/uki/jan/css fainal /Sing in.html" class="block py-2 px-3 rounded-sm md:p-0">Sing in</a>
-          </li>
-          <!-- button seyanum -->
-          <li>
-            <a href="/home/uki/jan/css fainal /Sing up.html" class="block py-2 px-3 rounded-sm md:p-0">Sing up</a>
-          </li>
+            <a href="./Sign in .html" class="block py-2 px-3 rounded-sm md:p-0">Sign
+                in</a>
+        </li>
+        <li>
+            <a href="./sign up.html" class="block py-2 px-3 rounded-sm md:p-0">Sign
+                up</a>
+        </li>
         </ul>
       </div>
     </div>
@@ -355,26 +368,44 @@
 
 
   <!-- last seet form -->
-  <form class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8" style="background-color: whitesmoke;">
-    <div style="font-size: 25px;">
+  <form class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8" style=" display: flex; align-items: center; ">
 
-
+    <div style="font-size: 15px; background-color: whitesmoke; border: 0px; padding: 50px;">
       <h1 style="font-size: 30px;"><strong> Need Help? Open aTicket</strong></h1>
       <p style="margin-bottom: 20px; font-size: 20px;">Our support teem will get back to you ASAP via email.</p>
       <div style="display: flex; align-items: center;">
         <div>
           <label for="name"> Your Name</label><br>
-          <input type="text" id="Enter Your Name">
+          <input type="text" id="Enter Your Name" placeholder="Enter Your Name">
         </div>
-        <div style="margin-left: 10px;">
+        <div style="margin-left: 100px;">
           <label for="email">Email</label><br>
-          <input type="text" id="Enter Your Email">
+          <input type="text" id="Enter Your Email" placeholder="Enter Your Email">
         </div>
       </div>
-      <label for="Your Message">Your Message</label><br>
-      <textarea name="Your Message" id="Enter Your Message" cols="45px" ></textarea>
+      <label for="Your Message" style="margin: top 50px; ">Your Message</label><br>
+      <textarea name="Your Message" id="Enter Your Message" cols="60px" placeholder="Enter Your Message"></textarea>
       <br>
-      <button style="background-color: blue; color: aliceblue; border: 0px;  border-radius: 20px;">Submit Ticket</button>
+      <button style="background-color: blue; color: aliceblue; border: 0px; padding: 10px;">Submit Ticket
+      </button>
+    </div>
+
+    <div
+      style="padding-left: 50px; padding-right: 50px; padding-top: 10px; padding-bottom: 10px; background-color: whitesmoke; margin-left: 200px; font-size: 20px;">
+      <h1><strong>Subscribe to receive future <br>updates</strong></h1>
+      <p style="text-align: start;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </p>
+      <hr>
+      <div style="text-align: center;">
+        <input type="text" id="Enter Your Name" placeholder="Enter Your Name" style="margin-top: 15px;"><br>
+        <input type="text" id="Enter Your email" placeholder="Enter Your email"
+          style="margin-top: 10px; margin-bottom: 5px;"><br>
+        <button style="padding: 15px; background-color: blue; color: aliceblue; border: opx;">Subscribe</button><br>
+      </div>
+      <p style="margin-top: 10px; text-align: center;">No spam guaranteed, So please don't send any spam mail.</p>
+
+
 
     </div>
 

@@ -4,57 +4,75 @@
 <head>
     <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
     <title>Css Fainal</title>
-</head>
-
-<body>
-    <!-- navbar -->
-    <nav class="">
-      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="./logo-20250630T040152Z-1-001/logo/code.png" class="h-8" alt="Logo" />
-          <span class="self-center text-2xl font-semibold whitespace-nowrap ">Code</span>
-          <span class="self-center text-2xl font-semibold whitespace-nowrap ">Master</span>
-        </a>
-        <button data-collapse-toggle="navbar-dropdown" type="button"
-          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-          aria-controls="navbar-dropdown" aria-expanded="false">
-          <span class="sr-only">Open main menu</span>
-          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M1 1h15M1 7h15M1 13h15" />
-          </svg>
-        </button>
-        <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
-          <ul
-            class="flex flex-col font-medium p-4 md:p-0 mt-4  rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
-            <li>
-              <a href="./css.html"
-                class="block py-2 px-3 rounded-sm md:p-0"
-                aria-current="page">Home</a>
+    <style>
+        body {
+          background-image: url(./HeroSection_img-20250630T040146Z-1-001/HeroSection_img/backgroundimage.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+    
+        nav {
+          overflow: hidden;
+          float: left;
+          display: block;
+          position: fixed;
+          top: 0;
+          width: 100%;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+          background-color: aliceblue;
+        }
+      </style>
+    
+    </head>
+    
+    <body class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+      <!-- navbar -->
+      <nav class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+          <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img src="./logo-20250630T040152Z-1-001/logo/code.png" class="h-8" alt="Logo" />
+            <span class="self-center text-2xl font-semibold whitespace-nowrap ">Code</span>
+            <span class="self-center text-2xl font-semibold whitespace-nowrap ">Master</span>
+          </a>
+          <button data-collapse-toggle="navbar-dropdown" type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-dropdown" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15" />
+            </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+            <ul
+              class="flex flex-col font-medium p-4 md:p-0 mt-4  rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
+              <li>
+                <a href="./css.html" class="block py-2 px-3 rounded-sm md:p-0" aria-current="page">Home</a>
+              </li>
+    
+              <li>
+                <a href="./About.html" class="block py-2 px-3 rounded-sm md:p-0">About</a>
+              </li>
+              <li>
+                <a href="/home/uki/jan/css fainal /Blog.html" class="block py-2 px-3 rounded-sm md:p-0">Blog</a>
+              </li>
+              <li>
+                <a href="./Sign in .html" class="block py-2 px-3 rounded-sm md:p-0">Sign
+                    in</a>
             </li>
-            
             <li>
-              <a href="#"
-                class="block py-2 px-3 rounded-sm md:p-0">About</a>
+                <a href="./sign up.html" class="block py-2 px-3 rounded-sm md:p-0">Sign
+                    up</a>
             </li>
-            <li>
-              <a href="./Blog.html"
-                class="block py-2 px-3 rounded-sm md:p-0">Blog</a>
-            </li>
-            <li>
-              <a href="/home/uki/jan/css fainal /Sing in.html"
-                class="block py-2 px-3 rounded-sm md:p-0">Sing in</a>
-            </li>
-            <li>
-              <a href="/home/uki/jan/css fainal /Sing up.html"
-                class="block py-2 px-3 rounded-sm md:p-0">Sing up</a>
-            </li>
-          </ul>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+
      <!-- mid -->
-    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8" style="margin-top: 100px;">
         <div style="display: flex; align-items: center;">
             <div >
                 <h1 style="font-size: 50px;">About Page</h1>
@@ -69,8 +87,30 @@
         </div>
         <div style="display: flex; align-items: center; margin-top: 100px;">
             <div>
-                <h1>Why Choose <br> Code Master?</h1>
                 <!-- page 1 why choose -->
+                <h1>Why Choose <br> Code Master?</h1>
+                <div style="display: flex; text-align: start; margin-top: 10px; ">
+                    <ul>
+                      <li style="display: flex; align-items: center;"> <img src="./Screenshot from 2025-07-02 12-01-05.png"
+                          alt="" style="width: 15px; height: 20px;"> Premium </li>
+                      <li style="display: flex; align-items: center;"><img src="./Screenshot from 2025-07-02 12-01-05.png"
+                          alt="" style="width: 15px; height: 20px;"> Note.js</li>
+                      <li style="display: flex; align-items: center;"><img src="./Screenshot from 2025-07-02 12-01-05.png"
+                          alt="" style="width: 15px; height: 20px;"> Quality</li>
+                      <li style="display: flex; align-items: center;"><img src="./Screenshot from 2025-07-02 12-01-05.png"
+                          alt="" style="width: 15px; height: 20px;"> CSS</li>
+                    </ul>
+                    <ul style="margin-left: 50px;">
+                      <li style="display: flex; align-items: center;"><img src="./Screenshot from 2025-07-02 12-01-05.png"
+                          alt="" style="width: 15px; height: 20px;"> Rich</li>
+                      <li style="display: flex; align-items: center;"><img src="./Screenshot from 2025-07-02 12-01-05.png"
+                          alt="" style="width: 15px; height: 20px;"> Documentation</li>
+                      <li style="display: flex; align-items: center;"><img src="./Screenshot from 2025-07-02 12-01-05.png"
+                          alt="" style="width: 15px; height: 20px;"> Use for lifetime</li>
+                      <li style="display: flex; align-items: center;"><img src="./Screenshot from 2025-07-02 12-01-05.png"
+                          alt="" style="width: 15px; height: 20px; ">Developerfriendly</li>
+                    </ul>
+                  </div>
             </div>
             <div>
                 <img src="about_img-20250630T040113Z-1-001/about_img/about-image.svg" alt="" style="margin-left: 600px;">
